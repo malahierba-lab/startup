@@ -1,0 +1,75 @@
+<?php
+
+return [
+
+    /*
+    |--------------------------------------------------------------------------
+    | Default Authentication Driver
+    |--------------------------------------------------------------------------
+    |
+    | This option controls the authentication driver that will be utilized.
+    | This driver manages the retrieval and authentication of the users
+    | attempting to get access to protected areas of your application.
+    |
+    | Supported: "database", "eloquent"
+    |
+    */
+
+    'driver' => 'eloquent',
+
+    /*
+    |--------------------------------------------------------------------------
+    | Authentication Model
+    |--------------------------------------------------------------------------
+    |
+    | When using the "Eloquent" authentication driver, we need to know which
+    | Eloquent model should be used to retrieve your users. Of course, it
+    | is often just the "User" model but you may use whatever you like.
+    |
+    */
+
+    'model' => App\Models\User::class,
+
+    /*
+    |--------------------------------------------------------------------------
+    | Authentication Table
+    |--------------------------------------------------------------------------
+    |
+    | When using the "Database" authentication driver, we need to know which
+    | table should be used to retrieve your users. We have chosen a basic
+    | default value but you may easily change it to any table you like.
+    |
+    */
+
+    'table' => 'users',
+
+    /*
+    |--------------------------------------------------------------------------
+    | Password Reset Settings
+    |--------------------------------------------------------------------------
+    |
+    */
+
+    'password_reset_token' => [
+        'length'    => 40,              // numbers of chars for token
+        'expire_in' => 60,              // minutes for token expire
+    ],
+
+    'password_reset_request' => [
+        'max_attemps_time_window'   => 1,
+        'max_attemps'               => 3,
+    ],
+
+    /*
+    |--------------------------------------------------------------------------
+    | Login Settings
+    |--------------------------------------------------------------------------
+    |
+    */
+
+    'login' => [
+        'max_attemps_time_window'   => 1,
+        'max_attemps'               => 3,
+    ],
+
+];

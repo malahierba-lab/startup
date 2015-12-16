@@ -1,0 +1,49 @@
+////////////////////////
+// Core
+////////////////////////
+
+$body-bg:									#f1f1f1;
+
+////////////////////////
+// Branding
+////////////////////////
+
+$brand-primary:       						#111111;  
+
+////////////////////////
+// Nabvar
+////////////////////////
+
+$navbar-default-color:              		#dddddd;
+$navbar-default-bg:                 		#444444;
+$navbar-default-border:        				darken($navbar-default-bg, 6.5%);
+
+$navbar-default-link-color:                	$navbar-default-color;
+$navbar-default-link-hover-color:          	lighten($navbar-default-link-color, 10%);
+$navbar-default-link-hover-bg:             	transparent;
+$navbar-default-link-active-color:         	$navbar-default-link-hover-color;
+$navbar-default-link-active-bg:            	darken($navbar-default-bg, 6.5%) !default;
+$navbar-default-link-disabled-color:       	#ccc !default;
+$navbar-default-link-disabled-bg:          	transparent !default;
+
+$navbar-default-brand-color:               	#ffffff;
+$navbar-default-brand-hover-color:         	$navbar-default-brand-color;
+$navbar-default-brand-hover-bg:            	transparent;
+
+////////////////////////
+// Content
+////////////////////////
+
+$content-body-vertical-padding:				50px;
+
+////////////////////////
+// Wall
+////////////////////////
+
+$brick-width-xs:							300px;
+$brick-width-sm:							300px;
+$brick-width-md:							300px;
+$brick-width-lg:							300px;
+$brick-default-background:					#ffffff;
+$brick-section-separator-color:				#eeeeee;
+$brick-border-radius:						4px;
