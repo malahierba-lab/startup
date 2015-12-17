@@ -6,4 +6,4 @@ Sigue el desarrollo paso a paso de este proyecto en el canal de youtube [noesunt
 
 ### License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+The Malahierba Startup framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
